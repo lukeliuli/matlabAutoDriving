@@ -1,5 +1,5 @@
 function mainTestNAV1
-%matlab导航模块的getting start
+%matlab导航模块的getting start，四元数实验
 clear all;
 close all;
 addpath('D:\Documents\MATLAB\Examples\R2019b\shared_positioning\QuaternionExample\')
