@@ -25,7 +25,7 @@ T=dir('.\testImages\*.jpg');
 for i = 1:length(T)
     str=[T(i).folder '\' T(i).name];
 I = imread(str);
-% I = imresize(I,0.5);
+ I = imresize(I,[360 480]);
 % Segment the image.
 [C,scores,allScores] = semanticseg(I,net);
 

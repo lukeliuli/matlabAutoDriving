@@ -12,3 +12,4 @@ matlab auto driving tool examples
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
 2.1 mainTestDS1.m例子程序用于学习用代码实现DrivingScenario  
+2.2 mainTestDS2.m例子程序用于学习用app实现DrivingScenario  
