@@ -13,3 +13,10 @@ matlab auto driving tool examples
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
 2.1 mainTestDS1.m例子程序用于学习用代码实现DrivingScenario  
 2.2 mainTestDS2.m例子程序用于学习用app实现DrivingScenario  
+2.2 myScenario3.slx+myScenario3.mat 运行成功的ACC+Driving Simulation例子
+
+注意
+1.myScenario3运行前必须先运行myACCSetUp.m，初始化各种变量。而myScenario3.mat是的Driving Simulation APP的场景定义文件
+2.myScenario3运行保证busActor和BUSACTORSACTORS的存在，可以直接重命名  
+3.myScenario3运行是MPC工具库中ACCTestBenchExample的例子，注意细节上要改了很多很多，对照着ACCTestBenchExample模块设定参数。否则，会出很多错误。  
+4.道路半径R设为很大，就等于直线道路
