@@ -46,7 +46,7 @@ Cr      = 33000;    % Cornering stiffness of rear tires              (N/rad)
 tau     = 0.5;      % Longitudinal time constant                     (N/A)
 
 % Initial condition for the ego car
-v0_ego = 40;         % Initial speed of the ego car           (m/s)
+v0_ego = 30;         % Initial speed of the ego car           (m/s)
 x0_ego = 16.6;            % Initial x position of ego car          (m)
 y0_ego = 1.9;       % Initial y position of ego car          (m)
   
@@ -54,7 +54,7 @@ y0_ego = 1.9;       % Initial y position of ego car          (m)
 G = helperACCLinearModel(m,Iz,lf,lr,Cf,Cr,tau,v0_ego);     
 
 %% Automatic Cruise Control (ACC) Controller Parameters
-v_set           = 21.5; % ACC set speed                         (m/s)
+v_set           = 30; % ACC set speed                         (m/s)
 time_gap        = 1.5;  % ACC time gap                          (s)
 default_spacing = 5;    % ACC default spacing                   (m)
 verr_gain       = 0.5;  % ACC velocity error gain               (N/A)
@@ -78,7 +78,7 @@ yawerr_gain     = 2;    % Yaw error gain                        (N/A)
 
 %% Bus Creation
 % Create the bus of actors from the scenario reader
-modelName = 'myScenario3';
+modelName = 'myScenario3MPC';
 wasModelLoaded = bdIsLoaded(modelName);
 if ~wasModelLoaded
     load_system(modelName)

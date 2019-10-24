@@ -20,3 +20,7 @@ matlab auto driving tool examples
 2.myScenario3运行保证busActor和BUSACTORSACTORS的存在，可以直接重命名  
 3.myScenario3运行是MPC工具库中ACCTestBenchExample的例子，注意细节上要改了很多很多，对照着ACCTestBenchExample模块设定参数。否则，会出很多错误。  
 4.道路半径R设为很大，就等于直线道路
+5. 修改 myACCSetUp3.m设定适合的初始参数保证ACC顺利运行  
+6. generateMyScenario3.m给予程序生成scenario用APP保存为myScenario4.MAT文件  
+具体见https://www.mathworks.com/help/releases/R2019b/driving/ug/create-driving-scenario-variations-programmatically.html  
+2.建立使用MPC的ACC模型myACCSetUp3MPC.m和myScenario3MPC.slx  
